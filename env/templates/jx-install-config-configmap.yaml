@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAJEd66RprmgE4BGLCOvhD6QwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkMGZlMzIyZWItODlkOS00NDcyLWFhN2ItZWQ2OTAxYzdjOGE2
+    MB4XDTE5MDQwNTA5NTczN1oXDTI0MDQwMzEwNTczN1owLzEtMCsGA1UEAxMkMGZl
+    MzIyZWItODlkOS00NDcyLWFhN2ItZWQ2OTAxYzdjOGE2MIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEA11aiaw8djrROQ002gGR3E5FVOOzTs1HDs0TkvgcR
+    DL7vJeKXpUm2Y9wiS527rwdkqhrWZk6wuAq41XJeIImBL0hZqYicJ+kaWVkPP0+1
+    W7VK6gwCbLzQ+zBgqLQ7276MtrxgPg9DDMCzkJHdsQ7sA/RHR/cqbbYJIQjVqX31
+    J9eKhsHvrbsMu4vcupCDygmMyNK8W8SFz6n19EM1JeMLwzAJ4Bbe5e+BkPomei30
+    fQIsXnilJ9QPNcfjAvzCt64U27R/0m9xiJ+IO4Q8fFbY1fpW+kNec7VMBMgKZ9PI
+    95N8I6yA2zxjnZZPXGndIZVbKdA36KwS2DYtNQ8E/iQdawIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    YIYmJBZlMGMUWbiThrGXcMDOf/xPnesP57hCX13uw5+qaUIdiEh9rYtChYCMCOVE
+    qJ/xWWrOckP+2tMG/NUlqBqNJ/RVLr/5aeNNUQ1Y+6pTUoKentGy1alH1AnvHkhQ
+    88Y0/KPPkyVfdtWY1me/SBo7przlkljwU309M0hrqR/OIpGwWkndBiG2rrzYMwcW
+    wjI47z92piS2JXQ92esa90DZ/8ucxmqIA1+goGH1H6VPZ3EInuo/V941WE+85E11
+    0AzNS8KBbUw2q3WrhsLoJTuXuZJ2/tu0ElqROiYTWsan9/GevoNqeOeSLy4g/HDG
+    WCE3Seeb0DaDAeDQl//iaw==
+    -----END CERTIFICATE-----
+  clusterName: tekton-hawk
+  jx-install-version: -dev+548a93a-dev+4160558d5
+  kubeProvider: gke
+  projectID: jenkins-x-infra
+  region: europe-west1
+  secretsLocation: vault
+  server: https://35.187.50.29
+  systemVaultName: jx-vault-tekton-hawk
+  zone: ""
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config

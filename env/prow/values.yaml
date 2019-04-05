@@ -1,0 +1,8 @@
+auth:
+  git:
+    username: rawlingsj
+buildnum:
+  enabled: false
+pipelinerunner:
+  enabled: "true"
+tillerNamespace: ""
